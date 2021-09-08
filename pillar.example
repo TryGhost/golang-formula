@@ -2,6 +2,7 @@
 # vim: ft=yaml
 ---
 golang:
+  version: 1.17
   lookup:
     master: golang-master
     # Just for testing purposes

@@ -10,7 +10,7 @@ control 'golang package' do
       'go'
     when 'windows'
       # Using a wildcard based on the `DisplayName` in the registry:
-      # - 'Go Programming Language amd64 go1.14'
+      # - 'Go Programming Language amd64 go1.nn'
       'Go Programming Language*'
     else
       'golang'

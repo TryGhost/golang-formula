@@ -3,11 +3,11 @@
 dir_go, dir_go_owner, dir_go_group =
   case system.platform[:family]
   when 'bsd'
-    %w[/usr/local/go1.14.2.freebsd-amd64/go root wheel]
+    %w[/usr/local/go1.17.freebsd-amd64/go root wheel]
   when 'windows'
-    %w[C:/golang/go1.14.2.windows-amd64/go BUILTIN\\Administrators excluded_by_unless]
+    %w[C:/golang/go1.17.windows-amd64/go BUILTIN\\Administrators excluded_by_unless]
   else
-    %w[/usr/local/go1.14.2.linux-amd64/go root root]
+    %w[/usr/local/go1.17.linux-amd64/go root root]
   end
 
 control 'golang tar archive' do

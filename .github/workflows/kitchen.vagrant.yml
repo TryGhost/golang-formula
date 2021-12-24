@@ -17,11 +17,11 @@ jobs:
           # - default-freebsd-130-master-py3
           # - package-freebsd-130-master-py3
           - freebsd-130-master-py3
-          # - default-freebsd-122-master-py3
-          # - package-freebsd-122-master-py3
-          - freebsd-122-master-py3
+          # - default-freebsd-123-master-py3
+          # - package-freebsd-123-master-py3
+          - freebsd-123-master-py3
           # - default-freebsd-130-3004-0-py3
-          # - default-freebsd-122-3004-0-py3
+          # - default-freebsd-123-3004-0-py3
           # - default-openbsd-70-3003-3-py3
           - package-openbsd-70-3003-3-py3
           # - default-openbsd-69-3002-6-py3

@@ -15,12 +15,12 @@ golang:
     altpriority: 9100
 
   cmd:
-    goget: {}
-    # github.com/golang/example/hello
-    # github.com/golang/example/outyet
-    clean: {}
-    # github.com/golang/example/hello
-    # github.com/golang/example/outyet
+    goget: []
+    #   - github.com/golang/example/hello
+    #   - github.com/golang/example/outyet
+    clean: []
+    #   - github.com/golang/example/hello
+    #   - github.com/golang/example/outyet
 
   tofs:
     # The files_switch key serves as a selector for alternative

@@ -3,9 +3,9 @@
 golang_exec_file, golang_exec_owner =
   case system.platform[:family]
   when 'windows'
-    %w[C:/Go/bin/go.exe NT\ AUTHORITY\\SYSTEM]
+    ['C:/Go/bin/go.exe', 'NT AUTHORITY\\SYSTEM']
   else
-    %w[/etc/default/golang.sh root]
+    ['/etc/default/golang.sh', 'root']
   end
 
 golang_exec_group =

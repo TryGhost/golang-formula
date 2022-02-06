@@ -1,5 +1,49 @@
 # Changelog
 
+## [0.7.6](https://github.com/saltstack-formulas/golang-formula/compare/v0.7.5...v0.7.6) (2022-02-06)
+
+
+### Bug Fixes
+
+* **ci:** avoid parsing declares its path as 'x' etc ([3d9117f](https://github.com/saltstack-formulas/golang-formula/commit/3d9117fc929131704a8830486614dc3c9edeeb40))
+* **syntax:** update pillar.example, list not dict ([e980808](https://github.com/saltstack-formulas/golang-formula/commit/e9808088d54f192d603161bdc6683885733de5df))
+
+
+### Continuous Integration
+
+* **3003.1:** update inc. AlmaLinux, Rocky & `rst-lint` [skip ci] ([f083120](https://github.com/saltstack-formulas/golang-formula/commit/f0831207fa3c05d10110b72d20d217e07d9d17e3))
+* **freebsd:** update with latest pre-salted Vagrant boxes [skip ci] ([e2a898c](https://github.com/saltstack-formulas/golang-formula/commit/e2a898cca37ca403f5c84e32b1634dc5f4b817f1))
+* **gemfile:** allow rubygems proxy to be provided as an env var [skip ci] ([6b27f50](https://github.com/saltstack-formulas/golang-formula/commit/6b27f50857bc70974867aa9720145bc24c12c464))
+* **gemfile+lock:** use `ssf` customised `inspec` repo [skip ci] ([7b77825](https://github.com/saltstack-formulas/golang-formula/commit/7b7782513975e372e5b383b8c407fa480f7e9c7b))
+* **kitchen:** move `provisioner` block & update `run_command` [skip ci] ([129f8cf](https://github.com/saltstack-formulas/golang-formula/commit/129f8cfa576f0f4550c71f1e230c394dd69dcb2b))
+* **kitchen+ci:** update with `3004` pre-salted images/boxes [skip ci] ([395f9dd](https://github.com/saltstack-formulas/golang-formula/commit/395f9dd796191f4bf134e3f270a089c5abb7c96f))
+* **kitchen+ci:** update with latest `3003.2` pre-salted images [skip ci] ([b96fef3](https://github.com/saltstack-formulas/golang-formula/commit/b96fef336d1f0e5b470f18d6f70c4562aa763c3f))
+* **kitchen+ci:** update with latest CVE pre-salted images [skip ci] ([4c2e206](https://github.com/saltstack-formulas/golang-formula/commit/4c2e2069da9a029b8b2df52ee0c1879f520b7a2f))
+* **kitchen+gitlab:** adjust matrix to add `3003` [skip ci] ([09032eb](https://github.com/saltstack-formulas/golang-formula/commit/09032eb7dca0cf4ccc7a16bbf9934bfa79799e0b))
+* **kitchen+gitlab:** remove Ubuntu 16.04 & Fedora 32 (EOL) [skip ci] ([568e533](https://github.com/saltstack-formulas/golang-formula/commit/568e533c3d0a00653cc6041168fdfd52f9084ead))
+* **kitchen+gitlab:** update for new pre-salted images [skip ci] ([0a1ff5c](https://github.com/saltstack-formulas/golang-formula/commit/0a1ff5ca00663449d02cec8d1ed12f02c47d508e))
+* **proxy:** replace deprecated Windows `2016` with `2022` [skip ci] ([cdacb06](https://github.com/saltstack-formulas/golang-formula/commit/cdacb06f86b0e2bfb73cf02f24a8431e3da1e0b3))
+* **proxy+windows:** fix setting up WinRM ([a4f7c4b](https://github.com/saltstack-formulas/golang-formula/commit/a4f7c4b6bfc0ec103bae1a6b41603f25c063161d))
+* **vagrant:** add FreeBSD 13.0 [skip ci] ([f67270b](https://github.com/saltstack-formulas/golang-formula/commit/f67270b8d1068731c98fe1545b736d04b9f7158d))
+* **vagrant:** add OpenBSD 6.9 [skip ci] ([d867459](https://github.com/saltstack-formulas/golang-formula/commit/d867459e27289f803df817c18bd3b2c79d54c0f4))
+* **vagrant:** replace FreeBSD 12.2 with 12.3 [skip ci] ([5de7094](https://github.com/saltstack-formulas/golang-formula/commit/5de7094c2f3297be52eb2b8aae5444c15398c026))
+* **windows:** use Salt version `3004` [skip ci] ([01f0e0a](https://github.com/saltstack-formulas/golang-formula/commit/01f0e0a236320a53be262f08b9a44e3b27dd87d1))
+* add `arch-master` to matrix and update `.travis.yml` [skip ci] ([e2cb43b](https://github.com/saltstack-formulas/golang-formula/commit/e2cb43bb729fbbfb30fbf1a225e162206c537970))
+* add Debian 11 Bullseye & update `yamllint` configuration [skip ci] ([64f6cd3](https://github.com/saltstack-formulas/golang-formula/commit/64f6cd35d2d6f7b2f1d4532e91893c3578b03288))
+* **vagrant:** add Windows 10 pre-salted box [skip ci] ([7b8633e](https://github.com/saltstack-formulas/golang-formula/commit/7b8633ead3f047165a2f0ff02b9f52c5c5ab1a5d))
+* **vagrant:** use pre-salted boxes & conditional local settings [skip ci] ([dfa943b](https://github.com/saltstack-formulas/golang-formula/commit/dfa943b18535ad4b82a8700dded9fdc37f688f31))
+
+
+### Documentation
+
+* **readme:** add `Testing with Vagrant` section [skip ci] ([4ec5328](https://github.com/saltstack-formulas/golang-formula/commit/4ec5328124c23c95ec23f4bc0176fde05a8fa892))
+
+
+### Tests
+
+* **config:** auto-fix `rubocop` violation [skip ci] ([51840b4](https://github.com/saltstack-formulas/golang-formula/commit/51840b4ff58f40d082b000df9e84b36bc8d803e9))
+* **packages:** update package name to test on Windows [skip ci] ([3ac0b9d](https://github.com/saltstack-formulas/golang-formula/commit/3ac0b9d384536144775615c8386bb1541d2df54d))
+
 ## [0.7.5](https://github.com/saltstack-formulas/golang-formula/compare/v0.7.4...v0.7.5) (2021-04-01)
 
 

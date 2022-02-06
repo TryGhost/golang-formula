@@ -2,7 +2,7 @@
 # vim: ft=yaml
 ---
 golang:
-  version: 1.14.2
+  version: 1.17
   go_path: /usr/local/golang/packages   # non-default GOPATH
   rootuser: root
   rootgroup: root
